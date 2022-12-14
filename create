@@ -1,0 +1,15 @@
+CREATE TABLE STUDENTS ( 
+
+StudentID INTEGER, 
+
+FullName varchar2(50), 
+
+Gender varchar2(1), 
+
+Year varchar2(10), 
+
+Honors varchar2(1), 
+
+constraint student_pk PRIMARY KEY (StudentID) ) ;
+
+
